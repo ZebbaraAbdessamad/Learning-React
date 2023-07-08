@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #858585;
+    padding: 10px;
+  }
+  
+.App-logo {
+    height: 50px;
+    width : 90;
+  }
+  
+.nav-items {
+    list-style-type: none;
+    display: flex;
+  }
+  
+.nav-items li {
+  margin-right: 10px;
+  font-size: large;
+  color: #333;
+  cursor: pointer;
+}
+
+.nav-items li:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}

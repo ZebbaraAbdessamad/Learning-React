@@ -1,0 +1,86 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282D35;
+    color: aliceblue;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    padding: 20px 20px;
+   
+}
+.logo{
+    width: 90px;
+    height: 50px;
+}
+
+.navbar > h2 {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 20px;
+    color: white ;
+}
+
+.navbar > h1 {
+ color: #61DAFB;
+}
+
+/* for the main
+57 : top and bottom
+97 : right and left
+*/
+.main{
+    padding: 57px 97px;
+}
+
+.main > h1{
+    margin: 0;
+}
+
+.main-list {
+    list-style: none;
+    padding: 0;
+    background-image: url('images/react-logo-grey.png');
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    /* background-position-y:center ; */
+
+
+}
+ 
+.main-list li::before {
+    content: '•';
+    color: #61DAFB;/* Change the color here */
+    font-size: 40px; /* Adjust the size here */
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+
+  }
+
+  /* footer */
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #bcbcbd;
+    color: #121010;
+    padding: 3px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

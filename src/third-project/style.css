@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(6, 236, 133);   
+    padding: 2px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 10px;
+}
+
+.navbar > h1 {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 20px;
+    color: white ;
+}
+
+.health-grid{
+    width: 300px;
+    height: 300px;
+}
+
+.health-tools{
+    width: 300px;
+    height: 300px;
+
+}
+.first-section{
+    text-align: center;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.pragraph {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+/* card */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px 90px;
+}
+  
+  
+.card {
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+}
+  
+.card-image {
+    position: relative;
+  }
+  
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+    /* badge  */
+  .badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 8px;
+    background-color: #FF4136;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    z-index: 1;
+  }
+  
+  
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.location {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+  
+.price-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+  
+.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.rating {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+  
+.reviews {
+    font-size: 14px;
+    color: #888;
+}
+
