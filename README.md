@@ -1,4 +1,4 @@
-# My React Project
+# My React Projects
 
 This is my React project where I've been learning and experimenting with various concepts.
 
