@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# My React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my React project where I've been learning and experimenting with various concepts.
+
+## Screenshots
+
+<div align="center">
+  <img src="images/image2.PNG" alt="Image 2" width="270" />
+  <img src="images/image3.PNG" alt="Image 3" width="270" />
+  <img src="images/image4.PNG" alt="Image 4" width="270" />
+</div>
+<div align="center">
+  <img src="images/image5.PNG" alt="Image 5" width="270" />
+  <img src="images/image6.PNG" alt="Image 6" width="270" />
+  <img src="images/image7.PNG" alt="Image 7" width="270" />
+  <img src="images/image8.PNG" alt="Image 8" width="270" />
+</div>
+
 
 ## Available Scripts
 
